@@ -1,0 +1,5 @@
+﻿  tserial.cpp
+c:\users\kim\documents\visual studio 2015\projects\kimopencv\kimopencv\tserial.cpp(145): error C2664: 'HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)': cannot convert argument 1 from 'char [10]' to 'LPCWSTR'
+  c:\users\kim\documents\visual studio 2015\projects\kimopencv\kimopencv\tserial.cpp(145): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\kim\documents\visual studio 2015\projects\kimopencv\kimopencv\tserial.cpp(91): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
